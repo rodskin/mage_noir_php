@@ -1,0 +1,66 @@
+.go_back {
+  border: none;
+  background: none;
+  font-size: 2rem;
+}
+
+body {
+  padding-top: 0;
+  margin: 0;
+  height: 100vh;
+}
+body #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  height: 100%;
+  position: relative;
+}
+body #app header {
+  top: 10px;
+  position: absolute;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1000;
+}
+body #app_body {
+  padding-top: 121px;
+  display: flex;
+  height: 100%;
+  align-items: stretch;
+  position: relative;
+  flex-direction: row;
+}
+body #app_body #page_left {
+  border-left: 1px solid black;
+  align-items: stretch;
+  width: 30%;
+  background-color: #BBBBBB;
+  overflow: auto;
+}
+body #app_body #page_content {
+  flex: 2;
+  overflow: auto;
+}
+body #app_title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+body #nav {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+body a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+/*# sourceMappingURL=styles.css.map */

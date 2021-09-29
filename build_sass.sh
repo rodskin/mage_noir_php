@@ -1,2 +1,2 @@
 #!/bin/bash
-sass scss/_root.scss css/styles.css
+sass www/scss/_root.scss www/css/styles.css
